@@ -69,7 +69,7 @@ window.slides = function(element){
    })
 
  controls()
- //autoPlay()
+ autoPlay()
   
 }
 
