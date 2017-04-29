@@ -31,13 +31,20 @@ body{
   display:flex;
 }
 li{
-border:1px solid;
-border-radius:50%;
-height:1.2em;
-width:1.2em;
-text-align:center;
-margin:0 2px;
-transform:translate(-365%,0%)
+  border:1px solid;
+  border-radius:50%;
+  height:1.2em;
+  width:1.2em;
+  text-align:center;
+  margin:0 2px;
+  font-size:10px;
+  background:rgba(255,255,255,0.5);
+  transform:translate(-485%,0%)
+}
+.active{
+  background:black;
+  color:white;
+  border-color:black;
 }
 /* 用户的css*/
 .slide{
